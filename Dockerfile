@@ -68,4 +68,4 @@ COPY Makefile /usr/src/ibex-lib/examples/slam/makefile
 RUN make
 
 # Run an example
-CMD ["./slam1"]
+RUN ./slam1
